@@ -5,16 +5,21 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include<fcntl.h>
-#include<sys/wait.h>
+#include <fcntl.h>
+#include <sys/wait.h>
+#include <netinet/in.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+
+/* port de communication */
+#define PORT 8080
+
 /* nb max de triage*/
-#define NMAX 50
+#define NMAX 10
 
-/* paths des tubes nommes*/
-#define PATH1 "fifo1"
-#define PATH2 "fifo2"
 
-/* decl de struct des questions/reponses*/
+/* decl de struct des questions/reponses */
 struct QR { 
   int numproc;  
   int numserv;
