@@ -13,7 +13,7 @@
 #include <arpa/inet.h>
 
 /* port de communication */
-#define PORT 2000
+#define PORT 8080
 
 /* nb max de triage*/
 #define NMAX 10
