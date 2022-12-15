@@ -1,0 +1,32 @@
+Reponse Retourner!!!
+
+la reponse est:
+
+numero 1= 1263
+
+numero 2= 2312
+
+numero 3= 1355
+
+numero 4= 5923
+
+numero 5= 7534
+
+numero 6= 1666
+
+numero 7= 152
+
+numero 8= 6323
+
+numero 9= 9833
+
+numero 10= 1467
+
+Reponse Retourner!!!
+
+la reponse est:
+
+numero 1= 5001
+
+numero 2= 7769
+
