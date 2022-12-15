@@ -1,1 +1,0 @@
-void hand_reveil(int sig){	printf("Fin client!!\n");}void fin_serveur(int sig){	printf("Fin serveur!!!\n");	exit(1);}
